@@ -11,5 +11,6 @@ export default defineConfig({
       },
     }
   },
+  base: '/project-airlines',
   plugins: [vue()],
 })
