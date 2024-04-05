@@ -31,6 +31,9 @@ export default {
       animation: {
         line: 'line 1s ease-in-out infinite',
       },
+      screens: {
+        'hover-hover': {'raw': '(hover: hover)'},
+      },
     },
   },
   plugins: [],
