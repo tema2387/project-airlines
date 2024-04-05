@@ -153,7 +153,7 @@ export default {
   <div class="airlines flex bg-light-gray min-h-screen">
     <div class="airlines__content mb-0 sm:mt-[100px] mt-[50px] mx-auto px-[20px]">
       <h1 class="airlines__title mb-[30px] sm:text-5xl text-4xl">Купить билеты</h1>
-      <div class="airlines__main flex gap-[30px] max-lg:flex-col">
+      <div class="airlines__main flex flex-col lg:flex-row gap-[30px]">
         <div class="airlines__search flex flex-col sm:p-[25px] bg-white shadow-xl rounded-xl sm:gap-[40px] h-max p-[15px] gap-[30px]">
           <component-wallets
             @update:wallet="filterWallets" 
